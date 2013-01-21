@@ -2,7 +2,7 @@
 <snippet>
    <content><![CDATA[_.each(${1:list}, function(${5: value}, key, list){
     $0
-});]]></content>
+}{$6:, this});]]></content>
     <tabTrigger>_each</tabTrigger>
     <scope>source.js</scope>
     <description>each (Alias: forEach) </description>
